@@ -1,123 +1,123 @@
-// Finance Automation Articles Dataset
-window.FINANCE_ARTICLES = [
+// Health, Nutrition, Fitness, Sleep & Longevity Articles Dataset
+window.HEALTH_ARTICLES = [
   {
-    id: "quickbooks-automation-guide",
-    title: "The Definitive Guide to Enterprise QuickBooks Automation: Architecture, Real-Time Reconciliations, and 95% Touchless Bookkeeping",
-    slug: "quickbooks-automation-guide.html",
-    category: "QuickBooks & ERP",
-    tag: "Flagship Guide",
+    id: "health-optimization-guide",
+    title: "The Masterclass Guide to Complete Health Optimization: Nutrition, Vo2 Max, Deep Sleep Architecture, and Cellular Longevity",
+    slug: "health-optimization-guide.html",
+    category: "Longevity & Healthspan",
+    tag: "Flagship Masterclass",
     badgeType: "badge-glow",
-    readTime: "24 min read",
+    readTime: "25 min read",
     wordCount: "4,250 words",
-    date: "Aug 18, 2026",
+    date: "Aug 19, 2026",
     author: {
-      name: "Marcus Vance",
-      role: "Head of Finance Engineering",
-      initials: "MV"
+      name: "Dr. Ethan Hayes, MD, PhD",
+      role: "Director of Precision Medicine & Longevity",
+      initials: "EH"
     },
-    excerpt: "How modern high-growth CFOs and finance ops teams integrate QuickBooks Online & Desktop with event-driven pipelines, automated 3-way matching, AI reconciliation, and self-healing ledgers to scale to $100M+ ARR.",
+    excerpt: "The comprehensive, evidence-based blueprint for mastering nutrition, metabolic flexibility, Zone 2 & Vo2 Max cardiovascular conditioning, circadian sleep hygiene, and clinical biomarkers to reverse biological age.",
     featured: true,
-    views: "18.4K",
-    icon: "database"
+    views: "24.6K",
+    icon: "heart"
   },
   {
-    id: "ai-gl-reconciliation-2026",
-    title: "Autonomous Bank Reconciliation: Replacing Manual Ticks with Transformer-Based Fuzzy Matching",
-    slug: "quickbooks-automation-guide.html#section-4",
-    category: "AI Reconciliation",
-    tag: "Technical Deep-Dive",
+    id: "vo2-max-zone2-cardio-protocol",
+    title: "The Ultimate Guide to Zone 2 Training & Vo2 Max: How to Maximize Mitochondrial Density and Extend Lifespan",
+    slug: "health-optimization-guide.html#section-4-1",
+    category: "Fitness & Training",
+    tag: "Clinical Protocol",
     badgeType: "badge-emerald",
     readTime: "14 min read",
-    wordCount: "2,400 words",
-    date: "Aug 15, 2026",
+    wordCount: "2,500 words",
+    date: "Aug 16, 2026",
     author: {
-      name: "Elena Rostova",
-      role: "Staff ML Engineer, Fintech",
-      initials: "ER"
+      name: "Coach Julian Vance, CSCS",
+      role: "Lead Performance Physiologist",
+      initials: "JV"
     },
-    excerpt: "Learn how vector embeddings and weighted multi-parameter algorithms match ambiguous bank transaction strings against ERP invoices with 99.4% precision.",
+    excerpt: "Why cardiorespiratory fitness is the single strongest predictor of all-cause mortality, and the exact weekly training split to optimize mitochondrial respiration.",
     featured: false,
-    views: "12.1K",
-    icon: "cpu"
+    views: "18.2K",
+    icon: "activity"
   },
   {
-    id: "ap-ar-3-way-matching-pipeline",
-    title: "Building an Idempotent 3-Way AP Matching Pipeline with Python and QuickBooks REST API v3",
-    slug: "quickbooks-automation-guide.html#section-4-1",
-    category: "AP/AR Automation",
-    tag: "Architecture",
+    id: "metabolic-flexibility-cgm-nutrition",
+    title: "Metabolic Engineering: Continuous Glucose Monitoring (CGM), Insulin Sensitivity & Nutrient Timing",
+    slug: "health-optimization-guide.html#section-4-2",
+    category: "Nutrition & Metabolism",
+    tag: "Metabolic Health",
     badgeType: "badge-purple",
     readTime: "16 min read",
-    wordCount: "2,900 words",
-    date: "Aug 11, 2026",
+    wordCount: "2,800 words",
+    date: "Aug 12, 2026",
     author: {
-      name: "David Chen",
-      role: "Principal Solutions Architect",
-      initials: "DC"
+      name: "Dr. Sarah Lindqvist, RD, PhD",
+      role: "Metabolic Nutritionist",
+      initials: "SL"
     },
-    excerpt: "Step-by-step engineering blueprint for ingesting PDF invoices, parsing line items via multimodal OCR, validating POs, and generating approved bills in QuickBooks.",
+    excerpt: "How to eliminate postprandial glucose spikes, optimize carbohydrate tolerance, and activate AMPK pathways through personalized macronutrient periodization.",
     featured: false,
-    views: "9.8K",
-    icon: "code"
+    views: "15.9K",
+    icon: "apple"
   },
   {
-    id: "fast-close-48h-playbook",
-    title: "The 48-Hour Month-End Close: How to Automate Accruals, Prepaids, and Depreciation",
-    slug: "quickbooks-automation-guide.html#section-4-4",
-    category: "Month-End Close",
-    tag: "Executive Playbook",
+    id: "circadian-sleep-architecture-hrv",
+    title: "Circadian Synchronization & Sleep Architecture: Unlocking Stage 3 Deep Sleep and REM Recovery",
+    slug: "health-optimization-guide.html#section-4-3",
+    category: "Sleep & Recovery",
+    tag: "Neuroscience",
     badgeType: "badge-amber",
-    readTime: "11 min read",
-    wordCount: "2,100 words",
-    date: "Aug 06, 2026",
+    readTime: "12 min read",
+    wordCount: "2,200 words",
+    date: "Aug 08, 2026",
     author: {
-      name: "Sarah Jenkins",
-      role: "VP of Accounting & Tax",
-      initials: "SJ"
+      name: "Dr. Ethan Hayes, MD, PhD",
+      role: "Director of Precision Medicine",
+      initials: "EH"
     },
-    excerpt: "Ditch the spreadsheet formulas. Here is how modern finance teams automate amortizations, journal entries, and trial balance sanity checks across multiple subsidiaries.",
+    excerpt: "Mastering the glymphatic brain wash: temperature regulation, morning lux photons, adenosine dynamics, and HRV enhancement for restorative sleep.",
     featured: false,
-    views: "14.7K",
-    icon: "calendar"
+    views: "19.3K",
+    icon: "moon"
   },
   {
-    id: "soc1-soc2-audit-ready-pipelines",
-    title: "SOC 1 & SOC 2 Compliance in Automated Accounting: Immutable Ledger Logs & RBAC",
-    slug: "quickbooks-automation-guide.html#section-6",
-    category: "Compliance & Audit",
-    tag: "Security & Governance",
+    id: "biomarker-longevity-testing-apob",
+    title: "The Essential Preventive Biomarker Panel: ApoB, hs-CRP, Fasting Insulin, and Homocysteine",
+    slug: "health-optimization-guide.html#section-2",
+    category: "Biomarkers & Diagnostics",
+    tag: "Diagnostic Testing",
     badgeType: "badge-glow",
-    readTime: "13 min read",
-    wordCount: "2,350 words",
-    date: "Jul 29, 2026",
+    readTime: "15 min read",
+    wordCount: "2,650 words",
+    date: "Aug 02, 2026",
     author: {
-      name: "Arthur Pendelton",
-      role: "Chief Compliance Officer",
-      initials: "AP"
+      name: "Dr. Aaron Mehta, MD, FACC",
+      role: "Preventive Cardiologist",
+      initials: "AM"
     },
-    excerpt: "Passing enterprise audits with automated accounting pipelines: cryptographic hashing of journal entries, human-in-the-loop audit trails, and strict separation of duties.",
+    excerpt: "Why standard lipid panels miss 50% of cardiovascular risks, and the crucial blood biomarkers every proactive individual should monitor bi-annually.",
     featured: false,
-    views: "8.3K",
+    views: "13.4K",
     icon: "shield"
   },
   {
-    id: "multi-entity-consolidation-qbo",
-    title: "Multi-Currency and Intercompany Elimination Architecture for High-Growth Global Teams",
-    slug: "quickbooks-automation-guide.html#section-4-3",
-    category: "QuickBooks & ERP",
-    tag: "Case Study",
+    id: "evidence-based-longevity-supplements",
+    title: "The Evidence-Based Supplement Stack: Creatine, Omega-3s, Magnesium L-Threonate, and Vitamin D3/K2",
+    slug: "health-optimization-guide.html#section-4-4",
+    category: "Nutrition & Metabolism",
+    tag: "Nutraceuticals",
     badgeType: "badge-emerald",
-    readTime: "15 min read",
-    wordCount: "2,600 words",
-    date: "Jul 22, 2026",
+    readTime: "13 min read",
+    wordCount: "2,300 words",
+    date: "Jul 26, 2026",
     author: {
-      name: "Marcus Vance",
-      role: "Head of Finance Engineering",
-      initials: "MV"
+      name: "Dr. Sarah Lindqvist, RD, PhD",
+      role: "Metabolic Nutritionist",
+      initials: "SL"
     },
-    excerpt: "Handling 7 international entities in QuickBooks without paying $150k/year for Oracle NetSuite: real-time FX translation, automatic intercompany ledger balancing, and consolidation.",
+    excerpt: "Cutting through the supplement industry noise: dosages, bioavailability, clinical evidence, and timing protocols that genuinely impact cellular health.",
     featured: false,
-    views: "11.5K",
-    icon: "globe"
+    views: "21.1K",
+    icon: "pill"
   }
 ];
